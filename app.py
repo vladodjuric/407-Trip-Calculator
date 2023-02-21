@@ -19,7 +19,6 @@ def costOfTrip(l1, l2):
     x, y = int(points[start][-1]), int(points[end][-1])
     exclusions = {21, 27}
     while x != y:
-        #route = 0 if x % 2 == 1 and x not in exclusions else 1
         route = 0 if x < y else 1
         distance += locations[str(x)]['routes'][route]['distance']
         if x < y:

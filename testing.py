@@ -1,6 +1,6 @@
 import unittest
 import json
-from test import costOfTrip
+from app import costOfTrip
 
 class TestCostOfTrip(unittest.TestCase):
 

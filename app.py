@@ -27,9 +27,3 @@ def costOfTrip(l1, l2):
         else:
             x -= 1 if x-1 not in exclusions else 2
     print(f'The distance from {l1} to {l2} is: {str(round(distance,2))}km, and the cost is: ${str(round(cost * distance))}CAD')
-
-    
-#if __name__ == '__main__':
-    #costOfTrip('QEW', 'Highway 400')
-    #costOfTrip('Salem Road', 'QEW')
-    #costOfTrip('QEW', 'Salem Road')
